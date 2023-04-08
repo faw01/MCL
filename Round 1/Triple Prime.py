@@ -1,36 +1,38 @@
-# Problem:
-# Alice and Bob are twin siblings who are both mathematics enthusiasts. Today, they come across a new concept called "triple prime".
-# Alice explains to Bob that a triple prime is a number that is divisible by exactly three distinct positive integers. Bob gets excited and challenges Alice to a game. He will give her a number, and Alice has to tell him whether it is a triple prime or not.
-# Can you help Alice by writing a program to determine if the number Bob gave her is a triple prime or not?
+"""
+Problem:
+    Alice and Bob are twin siblings who are both mathematics enthusiasts. Today, they come across a new concept called "triple prime".
+    Alice explains to Bob that a triple prime is a number that is divisible by exactly three distinct positive integers. Bob gets excited and challenges Alice to a game. He will give her a number, and Alice has to tell him whether it is a triple prime or not.
 
-# Input Format:
-# integer i
+    Can you help Alice by writing a program to determine if the number Bob gave her is a triple prime or not?
 
-# Constraints:
-# 1 <= i <= 10000
-# s consists of parentheses only '()[]{}'
+Input Format:
+    integer i
 
-# Output Format:
-# true if i is triple prime, false if it is not
+Constraints:
+    1 <= i <= 10000
+    s consists of parentheses only '()[]{}'
 
-# Sample Input 0:
-# 4
+Output Format:
+    true if i is triple prime, false if it is not
 
-# Sample Output 0:
-# true
+Sample Input 0:
+    4
 
-# Explanation 0:
-# 4 is divisible by 1, 2 and 4
+Sample Output 0:
+    true
 
-# Sample Input 1:
-# 5
+Explanation 0:
+    4 is divisible by 1, 2 and 4
 
-# Sample Output 1:
-# false
+Sample Input 1:
+    5
 
-# Explanation 1
+Sample Output 1:
+    false
 
-# 5 is divisible 1 and 5
+Explanation 1
+    5 is divisible 1 and 5
+"""
 
 # Submission:
 #!/bin/python3

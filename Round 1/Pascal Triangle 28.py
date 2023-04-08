@@ -1,23 +1,25 @@
-# Problem:
-# Given an integer n, return the first n of Pascal's Triangle. 
-# In Pascal's triangle, each number is the sum of the two numbers directly above it.
+"""
+Problem:
+    Given an integer n, return the first n of Pascal's Triangle. 
+    In Pascal's triangle, each number is the sum of the two numbers directly above it.
 
-# Input Format:
-# a single integer n
+Input Format:
+    a single integer n
 
-# Constraints:
-# 1 <= n <= 30
+Constraints:
+    1 <= n <= 30
 
-# Output Format:
-# sequence of numbers seperated by spaces
+Output Format:
+    sequence of numbers seperated by spaces
 
-# Sample Input 0:
-# 3
+Sample Input 0:
+    3
 
-# Sample Output 0:
-# 1
-# 1 1
-# 1 2 1
+Sample Output 0:
+    1
+    1 1
+    1 2 1
+"""
 
 # Submission:
 #!/bin/python3

@@ -1,31 +1,34 @@
-# Problem:
-# Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.. 
-# An input string is valid if:
-# Open brackets must be closed by the same type of brackets.
-# Open brackets must be closed in the correct order.
-# Every close bracket has a corresponding open bracket of the same type.
+"""
+Problem:
+    Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
-# Input Format:
-# string s
+    An input string is valid if:
+        Open brackets must be closed by the same type of brackets.
+        Open brackets must be closed in the correct order.
+        Every close bracket has a corresponding open bracket of the same type.
 
-# Constraints:
-# 1 <= s.length <= 104
-# s consists of parentheses only '()[]{}'
+Input Format:
+    string s
 
-# Output Format:
-# print "true" if the parenthesis is valid, else "false"
+Constraints:
+    1 <= s.length <= 104
+    s consists of parentheses only '()[]{}'
 
-# Sample Input 0:
-# ()
+Output Format:
+    print "true" if the parenthesis is valid, else "false"
 
-# Sample Output 0:
-# true
+Sample Input 0:
+    ()
 
-# Sample Input 1:
-# (]
+Sample Output 0:
+    true
 
-# Sample Output 1:
-# false
+Sample Input 1:
+    (]
+
+Sample Output 1:
+    false
+"""
 
 # Submission:
 #!/bin/python3

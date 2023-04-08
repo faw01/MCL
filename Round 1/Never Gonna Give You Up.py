@@ -1,21 +1,24 @@
-# Problem:
-# Nobita is a student who is terrible at studying, he often fails his exam in school. Despite failing often, he does not give up at all and continues to retake his exam until he passes it.
-# Given Nobita's chance of passing p, how many times does Nobita need to take the exam to have an at least 99% chance of passing?
+"""
+Problem:
+    Nobita is a student who is terrible at studying, he often fails his exam in school. Despite failing often, he does not give up at all and continues to retake his exam until he passes it.
 
-# Input Format:
-# Nobita's chance of passsing his exam, p
+    Given Nobita's chance of passing p, how many times does Nobita need to take the exam to have an at least 99% chance of passing?
 
-# Constraints:
-# 0 < p <= 1
+Input Format:
+    Nobita's chance of passsing his exam, p
 
-# Output Format:
-# A single integer representing the number of times Nobita need to take the exam to have at least 99% chance of passing
+Constraints:
+    0 < p <= 1
 
-# Sample Input 0:
-# 0.9
+Output Format:
+    A single integer representing the number of times Nobita need to take the exam to have at least 99% chance of passing
 
-# Sample Output 0:
-# 2
+Sample Input 0:
+    0.9
+
+Sample Output 0:
+    2
+"""
 
 # Submission:
 #!/bin/python3
