@@ -1,4 +1,7 @@
 # MCL - Team FA Attempt
+
+Group: [faw](https://github.com/faw01) and [brightcosmo](https://github.com/brightcosmo)
+
 Monash Coding League Semester 1 2023
 
 Round 1:
